@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements AbsListView.OnScr
         mContext = this;
         initView();
         initData();
+        //
         //sendSyncRequest();
         sendAyncRequest();
         setListener();
